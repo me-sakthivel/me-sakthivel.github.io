@@ -1,0 +1,48 @@
+body
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;;
+  background-repeat: no-repeat;
+  margin: 0;
+  background : linear-gradient(to right, #06a4c783,#0eb08fa1);
+}
+
+.one
+{
+    width: 450px;
+    height: 450;
+    background: rgba(255,255,255,.5);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image
+{
+    height: 300px;
+    width: 800px;
+    border:5px solid #00000077;
+    border-radius: 5px;
+}
+.download
+{
+  font-family: 'Abel', sans-serif;
+  position: relative;
+  background : linear-gradient(to right, #d12cb6,#9436ca);
+  border: none;
+  font-size: 22px;
+  color: #FFFFFF;
+  padding: 0px;
+  width: 105px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 100px;
+}

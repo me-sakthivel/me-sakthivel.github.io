@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie ticket</title>
+    <style>
+
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap'); 
+
+
+body {
+  
+  background-image: url("welcome.jpeg");
+  width:  95%; 
+  height: 130%; 
+  background-size: cover;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    color:whitesmoke;
+}
+
+.forms
+{
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgb(0, 42, 83);
+    width: 370px;
+    letter-spacing: 1.1px;
+    height:355px;
+    border-radius: 5px;
+    text-align: center;
+    
+    background: rgb(242, 235, 235);
+    opacity: 0.8;
+    
+ position:absolute;
+ top: 50%;
+ left:50%;
+ transform:translate(-50%,-50%);
+
+
+}
+.forms input{
+margin-top: 30px;
+    position:relative;
+    
+    left:50%;
+    transform:translate(-50%);
+    display:block;
+    text-align: center;
+    letter-spacing: 5px;
+    width:80%;
+    cursor: pointer;
+    border-radius: 8px;
+    height:25px;
+    border:0.5px solid blue;
+}
+.forms input[type="button"]{
+margin-top: 30px;
+    position:relative;
+    
+    left:50%;
+    cursor: pointer;
+    transform:translate(-50%);
+    display:block;
+    width:30%;
+    border-radius: 6px;
+    text-align: center;
+    height:25px;
+    background-color: blue;
+    color:white;
+    border:0.5px solid blue;
+}
+
+.forms input[type="button"]:hover{
+margin-top: 30px;
+    position:relative;
+    opacity:0.8;
+    left:50%;
+    cursor: pointer;
+    transform:translate(-50%);
+    display:block;
+    width:30%;
+    border-radius: 6px;
+    text-align: center;
+    height:40px;
+    background-color: blue;
+    color:white;
+    border:0.5px solid blue;
+
+}
+    </style>
+</head>
+<body>
+   <center>
+    <div class = "heading">
+    <h1>MOVIE TICKET BOOKING</h1>
+    </div>
+    </center>
+    <form action="two.html" method="post">
+    <div class = "forms">
+    <h2><CENTER><b>LOGIN</b></CENTER></h2>
+        <input type = "text" placeholder="Username" />
+        <input type="password" placeholder="Password"/><br>
+        OR<input type = "text" placeholder="+91 with phone number" />
+        <a href="two.html"><input type="button" value="LOGIN" ></input></a>
+        
+    
+    </div>
+</form>
+   <script>
+    function val()
+    {
+        alert("hello");
+
+    }
+    </script>
+</body>
+</html>
